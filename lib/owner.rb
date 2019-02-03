@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   attr_reader :species
   attr_accessor :pets, :name
@@ -61,9 +63,9 @@ class Owner
   
   def sell_pets
     
-    self.pets
-      binding.pry
+    self.pets.each do |k, v| 
       
+      binding.pry
     end
     
   end
