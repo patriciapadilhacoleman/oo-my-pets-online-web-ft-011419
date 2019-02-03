@@ -75,11 +75,10 @@ class Owner
   
   def list_pets
     
-    r = "I have "
+    
     self.pets.each do |k, v| 
       
-      
-      r << (v.length).to_s  
+    
      
       if k == :fishes
        
@@ -100,7 +99,7 @@ class Owner
      
 
     
-    "I have " + fish + " fish, " + dog + "dog(s), and " + cat + " cat(s)."
+    r = "I have " + fish + " fish, " + dog + "dog(s), and " + cat + " cat(s)."
      
     
     
