@@ -78,9 +78,13 @@ class Owner
     r = "I have "
     self.pets.each do |k, v| 
       
-      v.each {|a| a.mood = "nrvous"}
+     
+     binding.pry
+     r << ", "
      
     end
+    
+    r << "."
     
   end
   
