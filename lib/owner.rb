@@ -98,7 +98,7 @@ class Owner
       
     end
      
-      binding.pry
+
     
     "I have " + fish + " fish, " + dog + "dog(s), and " + cat + " cat(s)."
      
