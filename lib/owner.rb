@@ -79,7 +79,7 @@ class Owner
     self.pets.each do |k, v| 
       
      r << (v.length).to_s
-     r << " " + k.name
+     r << " " + k.name.to_s
      r << ", "
      binding.pry
      
