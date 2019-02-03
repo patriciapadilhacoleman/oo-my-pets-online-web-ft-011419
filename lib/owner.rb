@@ -79,7 +79,6 @@ class Owner
     self.pets.each do |k, v| 
       
      
-     binding.pry
      r << ", "
      
     end
