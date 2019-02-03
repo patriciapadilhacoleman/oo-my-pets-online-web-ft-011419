@@ -37,8 +37,14 @@ class Owner
   
   def walk_dogs
     
-    self.pets[:dogs].each do | 
+    self.pets[:dogs].each do | dog, mood|
+      
+      mood = "happy"
+      binding.pry
+      
+    end
   
+  end
   def self.all
   
     @@all
