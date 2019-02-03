@@ -1,6 +1,6 @@
 class Owner
   attr_reader :species
-  attr_accessor :pets, name
+  attr_accessor :pets, :name
   @@all = []
   @@count = 0
   
@@ -16,7 +16,7 @@ class Owner
   
   def buy_fish(name)
     
-    self.pets[fishes] << Fish.new(name)
+    self.pets[:fishes] << Fish.new(name)
     
     
   end
