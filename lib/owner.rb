@@ -85,15 +85,13 @@ class Owner
        
        r << " fish"
        
-    else
-      
-      if k == :cats
+     elsif k == :cats
     
         r << " cat"
       
-      else r << " dog"
+     else r << " dog"
       
-      end
+     end
     
       if v.length != 1
         
