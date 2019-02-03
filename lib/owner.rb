@@ -78,17 +78,33 @@ class Owner
     r = "I have "
     self.pets.each do |k, v| 
       
-     r << (v.length).to_s
+      
+      r << (v.length).to_s  
      
+     if k == :fishes
+       
+       r << " fish"
+       
+    else
+      
+      if k == :cats
+    
+        r << " cat"
+      
+      else r << " dog"
+      
+      end
+    
       if v.length != 1
         
         r << "s"
         
       end
+    end
      
      binding.pry
      
-    end
+    
     
     r << "."
     
