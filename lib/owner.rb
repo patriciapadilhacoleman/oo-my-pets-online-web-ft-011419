@@ -79,7 +79,9 @@ class Owner
     self.pets.each do |k, v| 
       
      r << (v.length).to_s
-     
+      if v.length > 1
+        
+        
      r << ", "
      binding.pry
      
