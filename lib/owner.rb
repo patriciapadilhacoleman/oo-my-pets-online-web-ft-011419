@@ -73,6 +73,17 @@ class Owner
     
   end
   
+  def list_pets
+    
+    r = "I have "
+    self.pets.each do |k, v| 
+      
+      v.each {|a| a.mood = "nrvous"}
+     
+    end
+    
+  end
+  
   def self.all
   
     @@all
