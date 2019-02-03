@@ -39,7 +39,6 @@ class Owner
     
     self.pets[:dogs].each do | dog, mood|
       
-      mood = "happy"
       binding.pry
       
     end
