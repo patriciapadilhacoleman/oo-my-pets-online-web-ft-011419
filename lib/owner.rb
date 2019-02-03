@@ -81,30 +81,27 @@ class Owner
       
       r << (v.length).to_s  
      
-     if k == :fishes
+      if k == :fishes
        
-       r << " fish"
+       fish = v.length.to_s
        
-     elsif k == :cats
+      elsif k == :cats
     
-        r << " cat"
+        cat = v.length.to_s
+        
       
-     else r << " dog"
+      else
+        
+        dog = v.length.to_s
       
      end
-    
-      if v.length != 1
-        
-        r << "s"
-        
-      end
-    end
      
-     binding.pry
+      binding.pry
+    
+    "I have " + fish + " fish, " + dog + "dog(s), and " + cat + " cat(s)."
      
     
     
-    r << "."
     
   end
   
