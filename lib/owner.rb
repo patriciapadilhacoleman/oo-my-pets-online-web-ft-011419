@@ -75,6 +75,9 @@ class Owner
   
   def list_pets
     
+    fish = ""
+    cat = ""
+    dog = ""
     
     self.pets.each do |k, v| 
       
@@ -101,10 +104,7 @@ class Owner
     
     r = "I have #{fish}, #{dog} dog(s), and #{cat} cat(s)."
      
-    
-    
-    
-  end
+   end
   
   def self.all
   
