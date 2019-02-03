@@ -78,7 +78,7 @@ class Owner
     r = "I have "
     self.pets.each do |k, v| 
       
-     
+     r << (v.length).to_s
      r << ", "
      
     end
