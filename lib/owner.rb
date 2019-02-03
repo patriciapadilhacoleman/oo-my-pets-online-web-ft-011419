@@ -59,6 +59,16 @@ class Owner
     
   end
   
+  def sell_pets
+    
+    self.pets.each do |k, v| 
+      
+      binding.pry
+      
+    end
+    
+  end
+  
   def self.all
   
     @@all
