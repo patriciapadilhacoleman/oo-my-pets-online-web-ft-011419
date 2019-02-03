@@ -68,6 +68,8 @@ class Owner
       v.each {|a| a.mood = "nervous"}
      
     end
+    self.pets.clear
+    binding.pry
     
   end
   
