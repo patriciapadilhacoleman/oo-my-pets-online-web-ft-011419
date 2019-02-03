@@ -79,7 +79,9 @@ class Owner
     self.pets.each do |k, v| 
       
      r << (v.length).to_s
+     r << " " + k.name
      r << ", "
+     binding.pry
      
     end
     
