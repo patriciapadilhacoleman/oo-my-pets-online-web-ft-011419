@@ -61,8 +61,7 @@ class Owner
   
   def sell_pets
     
-    self.pets.each do |k, v| 
-      
+    self.pets
       binding.pry
       
     end
