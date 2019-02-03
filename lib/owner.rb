@@ -102,7 +102,7 @@ class Owner
      
 
     
-    r = "I have #{fish}, #{dog} dog(s), and #{cat} cat(s)."
+    r = "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
      
    end
   
