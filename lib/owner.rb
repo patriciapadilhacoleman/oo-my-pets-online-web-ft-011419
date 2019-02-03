@@ -83,7 +83,7 @@ class Owner
      
       if k == :fishes
        
-       fish = v.length.to_s
+       fish = v.length
        
       elsif k == :cats
     
